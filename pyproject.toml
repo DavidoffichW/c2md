@@ -1,0 +1,38 @@
+[project]
+name = "c2md"
+version = "0.1.0"
+description = "LLM-optimized codebase snapshot generator"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{ name = "Abdulaziz Alhulail" }]
+keywords = ["llm", "codebase", "markdown", "snapshot", "cli", "repo-export"]
+dynamic = ["dependencies"]
+
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Documentation",
+  "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/DavidoffichW/c2md"
+Repository = "https://github.com/DavidoffichW/c2md"
+Issues = "https://github.com/DavidoffichW/c2md/issues"
+
+[project.scripts]
+c2md = "c2md.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
