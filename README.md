@@ -1,4 +1,4 @@
-# c2md — Codebase → Markdown (LLM-Optimized Snapshot Generator)
+# c2md: Codebase to Markdown (LLM-Optimized Snapshot Generator)
 
 `c2md` converts a software project into a **single structured Markdown document** (`code_base.md`) designed for Large Language Models to navigate efficiently.
 
