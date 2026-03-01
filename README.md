@@ -82,7 +82,7 @@ Works with:
 Clone:
 
 ```bash
-git clone https://github.com/<your-username>/c2md.git
+git clone https://github.com/DavidoffichW/c2md.git
 cd c2md
 ````
 
