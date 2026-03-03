@@ -86,6 +86,11 @@ git clone https://github.com/DavidoffichW/mdrepoatlas.git
 cd mdrepoatlas
 ````
 
+## Install (pypi)
+```bash
+pip install mdrepoatlas
+````
+
 ## Install (editable)
 ```bash
 pip install -e .
